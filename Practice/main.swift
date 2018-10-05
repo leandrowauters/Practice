@@ -8,5 +8,13 @@
 
 import Foundation
 
-print("Hello, World!")
 
+
+let outcome = Int.random(in: 1...2)
+switch outcome {
+case 1:
+    print("Tails")
+default:
+    print("Heads")
+    
+}
