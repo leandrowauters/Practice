@@ -8,7 +8,21 @@
 
 import Foundation
 
-print("Hello, World!")
 
-let userName = (firstname: "leandro", age: 30, city: "NYC")
-print(userName.firstname, userName.age, userName.city)
+
+let outcome = Int.random(in: 0...5)
+switch outcome {
+case 0:
+    print("Today will be a nice day")
+case 1:
+    print("Today is going to suck")
+case 2:
+    print("Today you'll find a new friend")
+case 3:
+    print("Today you'll find love")
+case 4:
+    print("Today you'll find a enemy")
+default:
+    print("Today you'll find happiness")
+
+}
